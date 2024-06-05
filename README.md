@@ -24,11 +24,11 @@ To run this project, the following software must be installed on your system:
 ## Setup
 1. Clone this repository:
  ```sh
- git clone https://github.com/username/kitapyurdu-otomasyon.git
+ git clone https://github.com/yasingokce/Selenyum-POM.git
  ```
 2. Go to the project directory:
  ```sh
- cd bookstore-automation
+ cd Selenyum-POM
  ```
 3. Install the required dependencies:
  ```sh
