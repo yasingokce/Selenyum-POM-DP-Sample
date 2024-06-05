@@ -14,22 +14,6 @@ import pages.Pages;
 
 public class AddChartAndDelete {
 
-    // @Test
-    // void loginTests() {
-    // ChromeOptions options = new ChromeOptions();
-    // options.addArguments("start-maximized");
-    // WebDriver driver = new ChromeDriver(options);
-    // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20L));
-    // driver.get("https://www.kitapyurdu.com");
-    // wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-    // "//input[@id='search-input']")));
-    // driver.findElement(By.xpath("//input[@id='search-input']")).sendKeys("insan
-    // pisikolojisi", Keys.ENTER);
-    // wait.until(
-    // ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='product-391337']/div[3]/div/a/img")));
-    // driver.findElement(By.xpath("//*[@id='product-391337']/div[3]/div/a/img")).click();
-
-    // }
 
     private WebDriver driver;
     private Pages page;
@@ -52,7 +36,7 @@ public class AddChartAndDelete {
     // kitapyurdu logintest
 
     @Test
-    void kitaplogintest() {
+    void bookAddAndDeleteTest() {
         page.visibleInpageXpath(mainpage.searchPanel);
         page.usingSearchPanelxpath(mainpage.searchPanel, mainpage.findString);
         page.visibleInpageXpath(mainpage.ipLocator);
@@ -66,6 +50,10 @@ public class AddChartAndDelete {
         page.visibleInpageCssSelector(mainpage.deleteItems);
         page.selectItemCSS(mainpage.deleteItems);
 
+    }
+      @AfterEach
+    void closeChromeDriver(){
+        driver.close();
     }
 
 }
