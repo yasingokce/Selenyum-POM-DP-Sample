@@ -35,7 +35,7 @@ To run this project, the following software must be installed on your system:
  mvn install
  ```
 
-## Use
+## Usage
 1. Open the `AddChartAndDelete.java` file located in the `src/test/java/tests` directory and fill in the required information:
  ```
  driver.get("https://www.kitapyurdu.com");
@@ -60,5 +60,5 @@ If you would like to contribute, please open an issue first. Let's discuss your 
 4. Push to the branch (`git push origin property-name`)
 5. Open a Pull Request
 
-## Licence
+## License
 This project is licensed under the MIT license - see `LICENSE` file for details.
