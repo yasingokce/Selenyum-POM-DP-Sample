@@ -21,7 +21,6 @@ To run this project, the following software must be installed on your system:
 - Maven
 - Chrome WebDriver
 
-
 ## Setup
 1. Clone this repository:
  ```sh
@@ -55,7 +54,7 @@ Once the test is complete, it will search for the specified product, add it to t
 ## Contribute
 If you would like to contribute, please open an issue first. Let's discuss your changes and contribute to the project.
 
-1. Fork (https://github.com/username/kitapyurdu-otomasyon/fork)
+1. Fork (https://github.com/yasingokce/Selenyum-POM/fork)
 2. Create feature branch (`git checkout -b feature-name`)
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to the branch (`git push origin property-name`)
@@ -63,5 +62,3 @@ If you would like to contribute, please open an issue first. Let's discuss your 
 
 ## Licence
 This project is licensed under the MIT license - see `LICENSE` file for details.
-
-
