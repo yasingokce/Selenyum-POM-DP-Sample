@@ -7,7 +7,7 @@ public class HomePage extends Pages {
 
     public final String searchPanel = "//input[@id='search-input']";
     public final String findString = "insan pisikolojisi";
-    public final String ipLocator = "//ul[@class='product-grid small jcarousel-skin-opencart']//img[@alt='Değerler Psikolojisi ve İnsan & Güzel İnsan Modeli']";
+    public final String ipLocator = "//ul[@class='product-grid small jcarousel-skin-opencart']//img[@alt='İnsan Psikolojisi']";  
     public final String packageString = "#button-cart > span";
     public final String basket = "#cart-items";
     public final String basketbutton = "#js-cart";
